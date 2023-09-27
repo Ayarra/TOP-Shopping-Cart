@@ -1,7 +1,12 @@
-import { StyledLink, StyledLinks } from "./styles/Navbar.styled";
-const NavLinks = ({ isOpen }) => {
+import { StyledLink, StyledLinks } from "./styles/Burger.styled";
+
+type navLinksProps = {
+  $isOpen: boolean;
+};
+
+const NavLinks = ({ $isOpen }: navLinksProps) => {
   return (
-    <StyledLinks isOpen={isOpen}>
+    <StyledLinks $isOpen={$isOpen}>
       <StyledLink>Store</StyledLink>
       <StyledLink>Blogs</StyledLink>
       <StyledLink>About Us</StyledLink>

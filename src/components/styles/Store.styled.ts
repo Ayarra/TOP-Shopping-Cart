@@ -37,3 +37,12 @@ export const StyledCard = styled.div`
     object-fit: cover;
   }
 `;
+
+export const StyledRating = styled.div`
+  display: flex;
+  height: 15px;
+  svg {
+    color: red;
+    fill: currentColor;
+  }
+`;

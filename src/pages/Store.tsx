@@ -17,7 +17,7 @@ const Store = () => {
           <div>Sorter</div>
           <StyledCardDisplayer>
             {Items.map((item) => (
-              <WatchCard item={item}></WatchCard>
+              <WatchCard key={item.id} item={item}></WatchCard>
             ))}
           </StyledCardDisplayer>
         </StyledPicker>
