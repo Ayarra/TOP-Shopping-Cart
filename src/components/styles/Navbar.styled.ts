@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
+// Global Nav Style
 export const StyledNavbar = styled.nav`
   padding: 20px 40px;
   display: flex;
-  /* width: 100%; */
   justify-content: space-between;
   align-items: center;
   background-color: ${({ theme }) => theme.colors.primary};
 `;
 
+// Logo Style
 export const StyledLogo = styled.div`
   img {
     height: auto;
@@ -16,13 +17,12 @@ export const StyledLogo = styled.div`
   }
 `;
 
+// Searchbar Style
 export const StyledSearch = styled.div`
   background-color: ${({ theme }) => theme.colors.secondary};
   width: 500px;
   height: 44px;
   min-width: 150px;
-  /* max-width: 220px; */
-
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -42,6 +42,7 @@ export const StyledSearch = styled.div`
   }
 `;
 
+// Searchbar Button Style
 export const StyledSearchButton = styled.button`
   all: unset;
   cursor: pointer;
@@ -56,6 +57,7 @@ export const StyledSearchButton = styled.button`
   }
 `;
 
+// Utilies corner style
 export const StyledUtilities = styled.div`
   display: flex;
   gap: 1.5rem;
@@ -66,6 +68,7 @@ export const StyledUtilities = styled.div`
   color: ${({ theme }) => theme.colors.secondary};
 `;
 
+// Cart button Style
 export const StyledCart = styled.button`
   height: 2.5rem;
   width: 2.5rem;
@@ -79,13 +82,13 @@ export const StyledCart = styled.button`
     fill: currentColor;
   }
 
+  /* amount Indicator Style */
   div {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: ${({ theme }) => theme.colors.accent};
     color: ${({ theme }) => theme.colors.primary};
-
     border-radius: 50%;
     width: 1rem;
     height: 1rem;

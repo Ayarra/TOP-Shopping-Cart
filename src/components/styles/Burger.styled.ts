@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
+// Burger Style
+
 export const StyledBurger = styled.div<{ $isOpen: boolean }>`
   width: 2.5rem;
   height: 2.5rem;
-  /* top: 21px; */
-  /* right: 90px; */
   z-index: 20;
   display: none;
   @media (max-width: 768px) {
@@ -35,6 +35,8 @@ export const StyledBurger = styled.div<{ $isOpen: boolean }>`
   }
 `;
 
+// Links Style
+
 export const StyledLinks = styled.ul<{ $isOpen: boolean }>`
   display: flex;
   gap: 2rem;
@@ -54,6 +56,8 @@ export const StyledLinks = styled.ul<{ $isOpen: boolean }>`
     padding-top: 6rem;
   }
 `;
+
+// Individual Links Style
 
 export const StyledLink = styled.li`
   position: relative;
