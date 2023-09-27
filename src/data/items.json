@@ -1,0 +1,102 @@
+[
+  {
+    "id": "651464fb11018b18fe83094f",
+    "name": "fsa",
+    "size": 37,
+    "colors": ["grey", "green"],
+    "rating": 2.4,
+    "brand": "Assistix",
+    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
+    "price": 286.08
+  },
+  {
+    "id": "651464fb6ec9f2989b1b1492",
+    "name": "fsa",
+    "size": 44,
+    "colors": ["pink", "grey"],
+    "rating": 2.9,
+    "brand": "Assistix",
+    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
+    "price": 333.23
+  },
+  {
+    "id": "651464fb28ea531b1eefd708",
+    "name": "fsa",
+    "size": 36,
+    "colors": ["red", "purple", "nightblue"],
+    "rating": 4.2,
+    "brand": "Centice",
+    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
+    "price": 355.48
+  },
+  {
+    "id": "651464fbf03b2c29b9efc43b",
+    "name": "fsa",
+    "size": 44,
+    "colors": ["black", "red", "purple"],
+    "rating": 1.8,
+    "brand": "Roboid",
+    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
+    "price": 94.68
+  },
+  {
+    "id": "651464fb956c00b84f99f1a0",
+    "name": "fsa",
+    "size": 38,
+    "colors": ["purple", "pink", "black"],
+    "rating": 1.6,
+    "brand": "Roboid",
+    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
+    "price": 207.59
+  },
+  {
+    "id": "651464fb2d476791e1555157",
+    "name": "fsa",
+    "size": 43,
+    "colors": ["nightblue", "pink", "purple", "green", "red"],
+    "rating": 4.5,
+    "brand": "Centice",
+    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
+    "price": 396.71
+  },
+  {
+    "id": "651464fbf612547836e0de3a",
+    "name": "fsa",
+    "size": 44,
+    "colors": ["red", "pink", "purple", "green"],
+    "rating": 4.6,
+    "brand": "Centice",
+    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
+    "price": 184.32
+  },
+  {
+    "id": "651464fb2f83f6fe932ce7df",
+    "name": "fsa",
+    "size": 44,
+    "colors": ["red", "grey", "purple"],
+    "rating": 1.9,
+    "brand": "Centice",
+    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
+    "price": 112.24
+  },
+  {
+    "id": "651464fb30337abb662f490c",
+    "name": "fsa",
+    "size": 34,
+    "colors": ["black", "nightblue", "green", "purple", "pink"],
+    "rating": 1.8,
+    "brand": "Assistix",
+    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
+    "price": 95.74
+  },
+  {
+    "id": "651464fbb9ed9ab479c273fe",
+    "name": "fsa",
+    "size": 39,
+    "colors": ["red", "green", "nightblue"],
+    "rating": 1.3,
+    "brand": "Centice",
+    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
+    "price": 228.83
+  }
+]
