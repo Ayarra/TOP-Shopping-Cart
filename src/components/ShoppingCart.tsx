@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useShoppingCart } from "../context/shoppingCartContext";
 import Cart from "./Cart";
 import {
@@ -10,6 +10,9 @@ export default function ShoppingCart() {
   const [isOpen, setIsOpen] = useState(false);
   const { cartQuantity } = useShoppingCart();
 
+  useEffect(() => {
+    if (!cartQuantity) setIsOpen(false);
+  }, [isOpen, cartQuantity]);
   return (
     <>
       <StyledShoppingCart>

@@ -46,7 +46,7 @@ export const StyledCart = styled.div<{ isOpen: boolean }>`
   overflow-y: auto;
   display: flex;
   flex-flow: column;
-  gap: 15px;
+  gap: 20px;
   z-index: 4;
   background-color: ${({ theme }) => theme.colors.primary};
   position: fixed;
@@ -57,6 +57,12 @@ export const StyledCart = styled.div<{ isOpen: boolean }>`
   height: 100vh;
   width: 500px;
   padding-top: 6rem;
+
+  p {
+    text-align: end;
+    font-weight: 500;
+    margin-right: 15px;
+  }
 `;
 
 export const StyledItemStack = styled.div`

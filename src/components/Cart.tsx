@@ -22,14 +22,14 @@ export default function Cart({ isOpen }: CartProps) {
       {cartItems.map((item) => (
         <CartItem key={item.id} {...item} />
       ))}
-      <div>
-        TOTAL:
+      <p>
+        TOTAL:{"      "}
         {total.toLocaleString("en-US", {
           style: "currency",
           currency: "USD",
           minimumFractionDigits: 2,
         })}
-      </div>
+      </p>
     </StyledCart>
   );
 }
