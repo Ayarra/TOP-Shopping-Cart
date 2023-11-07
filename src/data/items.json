@@ -1,102 +1,167 @@
 [
   {
-    "id": "651464fb11018b18fe83094f",
-    "name": "fsa",
-    "size": 37,
-    "colors": ["grey", "green"],
-    "rating": 2.4,
-    "brand": "Assistix",
-    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
-    "price": 286.08
-  },
-  {
-    "id": "651464fb6ec9f2989b1b1492",
-    "name": "fsa",
-    "size": 44,
-    "colors": ["pink", "grey"],
-    "rating": 2.9,
-    "brand": "Assistix",
-    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
-    "price": 333.23
-  },
-  {
-    "id": "651464fb28ea531b1eefd708",
-    "name": "fsa",
-    "size": 36,
-    "colors": ["red", "purple", "nightblue"],
-    "rating": 4.2,
+    "id": "65428ceceabd82b027370de6",
+    "img": "http://placehold.it/300x300",
+    "name": "Centice 7X",
+    "size": 41,
     "brand": "Centice",
-    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
-    "price": 355.48
-  },
-  {
-    "id": "651464fbf03b2c29b9efc43b",
-    "name": "fsa",
-    "size": 44,
-    "colors": ["black", "red", "purple"],
-    "rating": 1.8,
-    "brand": "Roboid",
-    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
-    "price": 94.68
-  },
-  {
-    "id": "651464fb956c00b84f99f1a0",
-    "name": "fsa",
-    "size": 38,
-    "colors": ["purple", "pink", "black"],
-    "rating": 1.6,
-    "brand": "Roboid",
-    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
-    "price": 207.59
-  },
-  {
-    "id": "651464fb2d476791e1555157",
-    "name": "fsa",
-    "size": 43,
-    "colors": ["nightblue", "pink", "purple", "green", "red"],
-    "rating": 4.5,
-    "brand": "Centice",
-    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
-    "price": 396.71
-  },
-  {
-    "id": "651464fbf612547836e0de3a",
-    "name": "fsa",
-    "size": 44,
-    "colors": ["red", "pink", "purple", "green"],
-    "rating": 4.6,
-    "brand": "Centice",
-    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
-    "price": 184.32
-  },
-  {
-    "id": "651464fb2f83f6fe932ce7df",
-    "name": "fsa",
-    "size": 44,
-    "colors": ["red", "grey", "purple"],
+    "price": "$392.36",
+    "colors": ["nightblue", "grey", "red", "purple"],
     "rating": 1.9,
-    "brand": "Centice",
-    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
-    "price": 112.24
+    "description": "Est labore tempor mollit labore dolore deserunt deserunt est exercitation cupidatat reprehenderit. Sint aute duis voluptate Lorem incididunt est Lorem sint non id cillum velit fugiat labore. Elit cillum eiusmod ullamco dolor velit ipsum esse et nostrud eiusmod consectetur officia."
   },
   {
-    "id": "651464fb30337abb662f490c",
-    "name": "fsa",
-    "size": 34,
-    "colors": ["black", "nightblue", "green", "purple", "pink"],
-    "rating": 1.8,
+    "id": "65428cecf4d3648c4f7cea72",
+    "img": "http://placehold.it/300x300",
+    "name": "Assistix 3",
+    "size": 38,
     "brand": "Assistix",
-    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
-    "price": 95.74
+    "price": "$294.15",
+    "colors": ["purple", "nightblue", "pink"],
+    "rating": 3.3,
+    "description": "Ullamco ad ex ullamco laboris. Velit eu voluptate cupidatat exercitation dolore nisi esse eiusmod adipisicing non cillum reprehenderit sit. Nisi fugiat est elit anim commodo."
   },
   {
-    "id": "651464fbb9ed9ab479c273fe",
-    "name": "fsa",
+    "id": "65428cec61584106558b6615",
+    "img": "http://placehold.it/300x300",
+    "name": "Roboid Gen 3Pro",
     "size": 39,
-    "colors": ["red", "green", "nightblue"],
-    "rating": 1.3,
+    "brand": "Roboid",
+    "price": "$183.06",
+    "colors": ["red", "pink", "black", "green", "grey", "purple"],
+    "rating": 3.8,
+    "description": "Cillum incididunt Lorem aute anim aliquip amet magna ad ullamco. Occaecat irure dolore cillum nostrud veniam anim Lorem irure quis. Mollit tempor duis ea sunt non proident."
+  },
+  {
+    "id": "65428cec268b5addcb3bf22f",
+    "img": "http://placehold.it/300x300",
+    "name": "Assistix 3",
+    "size": 41,
+    "brand": "Assistix",
+    "price": "$361.03",
+    "colors": ["nightblue", "pink", "black", "red", "green"],
+    "rating": 2.2,
+    "description": "Excepteur consequat culpa cillum esse voluptate deserunt ut id in laboris qui dolore qui. Consequat voluptate veniam esse ad. Enim quis sunt ut pariatur nostrud labore id id proident veniam ullamco exercitation."
+  },
+  {
+    "id": "65428cecc615142b4749a395",
+    "img": "http://placehold.it/300x300",
+    "name": "Roboid Gen 3",
+    "size": 39,
+    "brand": "Roboid",
+    "price": "$255.09",
+    "colors": ["pink", "nightblue", "red"],
+    "rating": 1.7,
+    "description": "Excepteur elit do incididunt non ea. Esse aliquip reprehenderit irure qui culpa aliqua qui nulla sunt. Laborum voluptate cupidatat amet irure ipsum laboris."
+  },
+  {
+    "id": "65428cec073f081580ceeea6",
+    "img": "http://placehold.it/300x300",
+    "name": "Assistix 4",
+    "size": 41,
+    "brand": "Assistix",
+    "price": "$270.18",
+    "colors": ["green", "black", "purple"],
+    "rating": 3.2,
+    "description": "Sit proident voluptate aliquip sint ullamco excepteur exercitation esse non labore id. Proident nostrud adipisicing ad deserunt ullamco amet nostrud cupidatat labore non ipsum cupidatat commodo. Cupidatat minim elit labore adipisicing eu."
+  },
+  {
+    "id": "65428cec5515413a6822ffea",
+    "img": "http://placehold.it/300x300",
+    "name": "Assistix 3",
+    "size": 35,
+    "brand": "Assistix",
+    "price": "$301.27",
+    "colors": ["green", "red", "grey", "purple", "pink"],
+    "rating": 1.8,
+    "description": "Ex sint ullamco ad ad fugiat exercitation id sunt sit. Laboris occaecat reprehenderit non cupidatat. Aliqua reprehenderit irure pariatur esse qui ex cillum et ad ad ut sunt velit est."
+  },
+  {
+    "id": "65428cec21b52c3a090eded1",
+    "img": "http://placehold.it/300x300",
+    "name": "Centice 6S",
+    "size": 43,
     "brand": "Centice",
-    "img": "https://res.garmin.com/en/products/010-02776-00/g/cf-lg.jpg",
-    "price": 228.83
+    "price": "$241.52",
+    "colors": ["red", "pink", "purple"],
+    "rating": 3.6,
+    "description": "Elit laborum laborum Lorem et tempor dolore. Ipsum id Lorem ullamco officia culpa quis irure veniam in sunt nostrud nulla eiusmod. Dolore ullamco anim anim nostrud aliqua nisi deserunt aute quis."
+  },
+  {
+    "id": "65428cec92c87061a2c4bfc9",
+    "img": "http://placehold.it/300x300",
+    "name": "Centice 5S",
+    "size": 36,
+    "brand": "Centice",
+    "price": "$193.96",
+    "colors": ["black", "grey", "green", "purple"],
+    "rating": 2.4,
+    "description": "Ut ut ipsum ea enim aute sint. Mollit officia adipisicing mollit culpa est sit. Esse fugiat excepteur anim consequat sint voluptate."
+  },
+  {
+    "id": "65428cec2609e34eb9001d91",
+    "img": "http://placehold.it/300x300",
+    "name": "Roboid Gen 1",
+    "size": 34,
+    "brand": "Roboid",
+    "price": "$172.28",
+    "colors": ["black", "red", "grey"],
+    "rating": 3.6,
+    "description": "Consectetur esse adipisicing occaecat incididunt magna duis ullamco sunt. Consectetur laboris ea voluptate ullamco duis ex duis officia amet nulla magna. Cupidatat consectetur qui quis qui."
+  },
+  {
+    "id": "65428cec3cb6ff4958f6582e",
+    "img": "http://placehold.it/300x300",
+    "name": "Assistix 4",
+    "size": 37,
+    "brand": "Assistix",
+    "price": "$250.94",
+    "colors": ["pink", "green", "red", "black"],
+    "rating": 2.6,
+    "description": "Fugiat magna Lorem cupidatat reprehenderit aliquip ullamco. Mollit dolore tempor duis excepteur aliquip occaecat eiusmod aliqua esse. Amet id non laborum adipisicing elit anim do dolor consequat qui ipsum sit dolore."
+  },
+  {
+    "id": "65428cec1a8a21fcddfefdf1",
+    "img": "http://placehold.it/300x300",
+    "name": "Centice 5X",
+    "size": 38,
+    "brand": "Centice",
+    "price": "$115.64",
+    "colors": ["purple", "green", "grey"],
+    "rating": 1.6,
+    "description": "Esse magna non eiusmod consequat magna deserunt deserunt irure fugiat pariatur in anim esse culpa. Elit esse adipisicing mollit ea sint minim amet amet qui exercitation proident dolor veniam. Veniam officia nostrud elit labore ullamco laboris consectetur fugiat nulla do eu tempor do."
+  },
+  {
+    "id": "65428cec1c62e4459902bde2",
+    "img": "http://placehold.it/300x300",
+    "name": "Assistix 2",
+    "size": 40,
+    "brand": "Assistix",
+    "price": "$367.48",
+    "colors": ["red", "nightblue", "pink"],
+    "rating": 4.4,
+    "description": "Ad deserunt laborum sunt aliquip aliqua amet esse magna consectetur mollit nostrud. Sit ullamco mollit quis cupidatat deserunt commodo consectetur cupidatat occaecat esse nisi. Ut commodo aliquip elit ex cupidatat."
+  },
+  {
+    "id": "65428cec7fddc481edd44395",
+    "img": "http://placehold.it/300x300",
+    "name": "Centice 5S",
+    "size": 44,
+    "brand": "Centice",
+    "price": "$330.16",
+    "colors": ["grey", "black", "pink"],
+    "rating": 4.1,
+    "description": "Non nostrud Lorem mollit cupidatat nisi velit proident aliqua quis dolor. Duis non aute aliquip cillum occaecat qui proident est exercitation ipsum id qui adipisicing consequat. Deserunt qui tempor aute veniam id veniam nostrud excepteur."
+  },
+  {
+    "id": "65428cecb2bc6fe4348f05b9",
+    "img": "http://placehold.it/300x300",
+    "name": "Centice 6X",
+    "size": 38,
+    "brand": "Centice",
+    "price": "$198.01",
+    "colors": ["green", "grey"],
+    "rating": 4.5,
+    "description": "Excepteur labore sunt cillum irure eiusmod cupidatat fugiat nisi nostrud tempor. Incididunt sint ea sint deserunt magna cillum aliqua cupidatat dolor. Elit dolore irure minim dolore commodo duis aute tempor eiusmod."
   }
 ]

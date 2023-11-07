@@ -1,11 +1,12 @@
-import WatchCard from "../components/WatchCard";
 import {
   StyledCardDisplayer,
+  StyledDisplayer,
   StyledFilters,
-  StyledPicker,
   StyledStore,
 } from "../components/styles/Store.styled";
 import Items from "../data/items.json";
+
+import ProductCard from "../components/ProductCard";
 
 const Store = () => {
   return (
@@ -13,14 +14,14 @@ const Store = () => {
       <div>Store</div>
       <StyledStore>
         <StyledFilters>filters</StyledFilters>
-        <StyledPicker>
+        <StyledDisplayer>
           <div>Sorter</div>
           <StyledCardDisplayer>
-            {Items.map((item) => (
-              <WatchCard key={item.id} item={item}></WatchCard>
-            ))}
+            {Items.map((item) => {
+              return <ProductCard key={item.id} item={item} />;
+            })}
           </StyledCardDisplayer>
-        </StyledPicker>
+        </StyledDisplayer>
       </StyledStore>
     </>
   );

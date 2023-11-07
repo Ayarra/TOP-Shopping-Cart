@@ -57,7 +57,7 @@ export const StyledSearchButton = styled.button`
   }
 `;
 
-// Utilies corner style
+// Utilities corner style
 export const StyledUtilities = styled.div`
   display: flex;
   gap: 1.5rem;
@@ -66,43 +66,4 @@ export const StyledUtilities = styled.div`
   text-transform: uppercase;
   align-items: center;
   color: ${({ theme }) => theme.colors.secondary};
-`;
-
-// Cart button Style
-export const StyledCart = styled.button`
-  height: 2.5rem;
-  width: 2.5rem;
-  border: none;
-  border-radius: 50%;
-  background-color: ${({ theme }) => theme.colors.secondary};
-  position: relative;
-  cursor: pointer;
-  svg {
-    color: ${({ theme }) => theme.colors.primary};
-    fill: currentColor;
-  }
-
-  /* amount Indicator Style */
-  div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: ${({ theme }) => theme.colors.accent};
-    color: ${({ theme }) => theme.colors.primary};
-    border-radius: 50%;
-    width: 1rem;
-    height: 1rem;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transform: translate(40%, 40%);
-    padding: 10px;
-  }
-
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.accent};
-    svg {
-      fill: ${({ theme }) => theme.colors.primary};
-    }
-  }
 `;

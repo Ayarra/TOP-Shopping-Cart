@@ -3,6 +3,8 @@ import { ThemeProvider } from "styled-components";
 import Navbar from "../components/Navbar";
 import { Container } from "../components/styles/Container.styled";
 import GlobalStyles from "../components/styles/global";
+import { ShoppingCartProvider } from "../context/shoppingCartContext";
+
 const theme = {
   colors: {
     primary: "#FFEEF2",
@@ -15,13 +17,15 @@ const theme = {
 function Root() {
   return (
     <ThemeProvider theme={theme}>
-      <>
-        <GlobalStyles />
-        <Navbar />
-        <Container>
-          <Outlet></Outlet>
-        </Container>
-      </>
+      <ShoppingCartProvider>
+        <>
+          <GlobalStyles />
+          <Navbar />
+          <Container>
+            <Outlet></Outlet>
+          </Container>
+        </>
+      </ShoppingCartProvider>
     </ThemeProvider>
   );
 }
