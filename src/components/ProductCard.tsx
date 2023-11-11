@@ -16,7 +16,7 @@ type ItemProps = {
     name: string;
     description: string;
     rating: number;
-    size: number;
+    size: number[];
   };
 };
 

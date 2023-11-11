@@ -14,7 +14,7 @@ export default function Cart({ isOpen }: CartProps) {
     const item = Items.find((i) => i.id === currentItem.id);
     return (
       total +
-      parseFloat(item?.price.replace("$", "") || null) * currentItem.quantity
+      parseFloat(item?.price.replace("$", "") || "") * currentItem.quantity
     );
   }, 0);
   return (

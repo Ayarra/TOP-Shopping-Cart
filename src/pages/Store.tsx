@@ -1,26 +1,35 @@
 import {
-  StyledCardDisplayer,
   StyledDisplayer,
-  StyledFilters,
   StyledStore,
 } from "../components/styles/Store.styled";
-import Items from "../data/items.json";
 
-import ProductCard from "../components/ProductCard";
+import { useState } from "react";
+import CardDisplayer from "../components/CardDisplayer";
+
+import ProductFilter from "../components/ProductFilter";
+import Sorter from "../components/Sorter";
+
+type Filters = {
+  brands: string[];
+};
 
 const Store = () => {
+  const [sorting, setSorting] = useState("relevance");
+  const [filters, setFilters] = useState<Filters>({
+    brands: [],
+  });
+
   return (
     <>
-      <div>Store</div>
+      <div>Products Store</div>
       <StyledStore>
-        <StyledFilters>filters</StyledFilters>
+        <ProductFilter
+          filters={filters}
+          setFilters={setFilters}
+        ></ProductFilter>
         <StyledDisplayer>
-          <div>Sorter</div>
-          <StyledCardDisplayer>
-            {Items.map((item) => {
-              return <ProductCard key={item.id} item={item} />;
-            })}
-          </StyledCardDisplayer>
+          <Sorter sorting={sorting} setSorting={setSorting} />
+          <CardDisplayer sorting={sorting} filters={filters}></CardDisplayer>
         </StyledDisplayer>
       </StyledStore>
     </>
