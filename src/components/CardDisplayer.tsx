@@ -2,13 +2,15 @@ import ProductCard from "../components/ProductCard";
 import Items from "../data/items.json";
 import { StyledCardDisplayer } from "./styles/Store.styled";
 
-type CardDisplayerProps = {
-  sorting: string;
-  filters: { brands: string[] };
-};
-
 type filters = {
   brands: string[];
+  sizes: string[];
+  colors: string[];
+};
+
+type CardDisplayerProps = {
+  sorting: string;
+  filters: filters;
 };
 
 type ItemProps = {
@@ -20,15 +22,29 @@ type ItemProps = {
   name: string;
   description: string;
   rating: number;
-  size: number[];
+  sizes: string[];
 };
 
-function filter(arr: ItemProps[], filters: filters) {
+function filterProducts(products: ItemProps[], filters: filters) {
   // filter by brand
   if (filters.brands.length) {
-    return arr.filter((item) => filters.brands.includes(item.brand));
+    return products.filter((product) => filters.brands.includes(product.brand));
   }
-  return arr;
+
+  // filter by sizes
+  if (filters.sizes.length) {
+    return products.filter((product) =>
+      filters.sizes.some((size) => product.sizes.includes(size))
+    );
+  }
+
+  // filter by sizes
+  if (filters.colors.length) {
+    return products.filter((product) =>
+      filters.colors.some((color) => product.colors.includes(color))
+    );
+  }
+  return products;
 }
 
 export default function CardDisplayer({
@@ -53,11 +69,11 @@ export default function CardDisplayer({
     sortedItems.sort((a, b) => b.rating - a.rating);
   }
 
-  const filtredItems = filter(sortedItems, filters);
+  const filteredProducts = filterProducts(sortedItems, filters);
 
   return (
     <StyledCardDisplayer>
-      {filtredItems.map((item) => (
+      {filteredProducts.map((item) => (
         <ProductCard key={item.id} item={item}></ProductCard>
       ))}
     </StyledCardDisplayer>

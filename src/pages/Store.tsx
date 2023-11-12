@@ -11,17 +11,31 @@ import Sorter from "../components/Sorter";
 
 type Filters = {
   brands: string[];
+  sizes: string[];
+  colors: string[];
 };
 
 const Store = () => {
   const [sorting, setSorting] = useState("relevance");
   const [filters, setFilters] = useState<Filters>({
     brands: [],
+    sizes: [],
+    colors: [],
   });
 
   return (
     <>
-      <div>Products Store</div>
+      <div
+        style={{
+          marginLeft: "40px",
+          marginTop: "40px",
+          textTransform: "uppercase",
+          fontSize: "25px",
+          fontWeight: "500",
+        }}
+      >
+        Products Store
+      </div>
       <StyledStore>
         <ProductFilter
           filters={filters}
