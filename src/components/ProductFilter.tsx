@@ -81,7 +81,6 @@ export default function ProductFilter({
   const brand = ["Centice", "Assistix", "Roboid"];
   const sizes = ["34", "36", "40", "44"];
   const colors = ["purple", "green", "grey", "pink", "red", "black"];
-  const rating = ["0+", "1+", "2+", "3+", "4+"];
 
   return (
     <StyledFilters>
@@ -100,12 +99,6 @@ export default function ProductFilter({
       <FilterSection
         shopBy={"colors"}
         options={colors}
-        setFilters={setFilters}
-        filters={filters}
-      ></FilterSection>
-      <FilterSection
-        shopBy={"rating"}
-        options={rating}
         setFilters={setFilters}
         filters={filters}
       ></FilterSection>

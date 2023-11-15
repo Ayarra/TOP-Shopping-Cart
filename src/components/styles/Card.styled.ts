@@ -7,8 +7,19 @@ export const StyledCard = styled.div`
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   color: ${({ theme }) => theme.colors.secondary};
 
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
   h2 {
     margin-top: 10px;
+  }
+  h2:hover {
+    text-decoration: underline;
   }
 
   h3 {

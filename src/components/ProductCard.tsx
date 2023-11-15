@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useShoppingCart } from "../context/shoppingCartContext";
 import Rating from "./Rating";
 import {
@@ -31,7 +32,9 @@ const ProductCard = ({ item }: ItemProps) => {
   return (
     <StyledCard>
       <img src={item.img} alt="product img" />
-      <h2>{item.name}</h2>
+      <h2>
+        <Link to={`/product/${item.id}`}>{item.name}</Link>
+      </h2>
       <Rating rating={item.rating}></Rating>
       <h3>{item.price}</h3>
       {quantity === 0 ? (

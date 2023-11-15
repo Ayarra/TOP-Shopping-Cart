@@ -63,6 +63,13 @@ export const StyledLink = styled.li`
   position: relative;
   cursor: pointer;
   white-space: nowrap;
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
 
   &:hover {
     color: ${({ theme }) => theme.colors.accent};
